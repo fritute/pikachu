@@ -109,3 +109,62 @@
     transform: translate(-50%, -50%);
     height: 75vh;
  }
+/*tablet*/
+@media (max-width:960px) {
+   body{
+      padding-inline: 32px;
+      padding-bottom: 32px;
+   }
+   main{
+      justify-content: space-between;
+   }
+   .container{
+      flex-direction: column;
+      height: auto;
+      align-items: center;
+      gap: 16px;
+      align-items: center;
+      display: flex;
+     
+
+   }
+   .container div{
+      width: 100%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      align-items: center;
+   }
+   .container p{
+      width: 80%;
+      font-size: 20px;
+   }
+
+   footer{
+      display: none;
+   }
+   .Pikachu{
+      height: 50vh;
+   }
+   
+}
+@media (max-width:640px){
+   header div{
+      display: none;
+   }
+   .title span{
+      left: 50%;
+      transform: translateX(-50%);
+   }
+   .container h2{
+      font-size: 36px;
+   }
+   .container p{
+      display: none;
+      
+   }
+   .action a{
+      width: 100%;
+   }
+}
